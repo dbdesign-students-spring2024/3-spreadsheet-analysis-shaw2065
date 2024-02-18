@@ -29,7 +29,7 @@ The data set, [New York City Leading Causes of Death](https://data.cityofnewyork
 
 ## Scrubbing task
 In the original data, there exist two main issues, while lacking one piece of information we believe is critical to the analysis. Regarding the issues, the first one relates to the disorder of raw data, in which the entire dataset is not ordered based on any pattern, and the second one relates to the commas existing in the leading cause category. Spreadsheets might mistake them for a delimiter, thus resulting in autofilling parts of the text, despite it should be regarded as a whole, into different columns.  
-To address the first issue, we use the **sort_values** function in pandas:
+To address the first issue, we use the sort_values function in pandas:
 ```python
 sorted_df = df.sort_values(by=['Race Ethnicity', 'Year'], ascending=[True, True])
 ```
