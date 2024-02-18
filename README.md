@@ -1,6 +1,4 @@
-# Spreadsheet Analysis
-
-## Data set details
+# Data Set Details
 The data set, [New York City Leading Causes of Death](https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam/about_data), consists of data on the leading causes of death by sex and ethnicity in New York City since 2007, published and annually updated by the Department of Health and Mental Hygiene. For this exercise, we make use of the JSON format of the original data, converted it into CSV, and analyzed the data through Microsoft Excel.
 
 ## Sample raw data (the first 20 rows)
@@ -52,7 +50,7 @@ sorted_df['Population Number'] = sorted_df['Deaths'] / sorted_df['Death Rate']*1
 - [Munged Data: New York City Leading Causes of Death](https://github.com/dbdesign-students-spring2024/3-spreadsheet-analysis-shaw2065/blob/main/data/clean_data.csv)
 - [Spreadsheet: New York City Leading Causes of Death](https://github.com/dbdesign-students-spring2024/3-spreadsheet-analysis-shaw2065/blob/main/data/clean_data.xlsx)
 
-## Analysis:
+# Spreadsheet Analysis
 Describe each of the aggregate statistic you have calculated - include a description of each and describe any insights the statistic shows that may not be obvious to someone just viewing the raw data.
 
 If using a pivot table for analysis, include a Markdown table showing a sample of the results of the pivot table (no more than 20 rows, please), along with a short description of what the results show and any insights they offer.
