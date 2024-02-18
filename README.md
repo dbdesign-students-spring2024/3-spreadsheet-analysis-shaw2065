@@ -40,7 +40,8 @@ if "," in x:
     v = '"' + x + '"'
     x = v
 ```
-The one piece of information we deem missing from the original data is population numbers. Population numbers serve as an indicator of the sex composition of each demographic within the provided data. Additionally, when combined with age adjustment, population numbers could help to deduce the age distribution across different races and ethnicities, allowing for an assessment of susceptibility to specific causes of death across populations of different ages.  
+The one piece of information we deem missing from the original data is population numbers. Population numbers serve as an indicator of the sex composition of each demographic within the provided data. Additionally, when combined with age adjustment, population numbers could help to deduce the age distribution across different races and ethnicities, allowing for an assessment of susceptibility to specific causes of death across populations of different ages.
+
 To calculate population numbers using data on deaths and death rate, we have code:
 ```python
 sorted_df['Population Number'] = sorted_df['Deaths'] / sorted_df['Death Rate']*1000
