@@ -3,7 +3,7 @@
 ## Data set details
 The data set, [New York City Leading Causes of Death](https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam/about_data), consists of data on the leading causes of death by sex and ethnicity in New York City since 2007, published and annually updated by the Department of Health and Mental Hygiene. For this exercise, we make use of the JSON format of the original data, converted it into CSV, and analyzed the data through Microsoft Excel.
 
-### Sample raw data (the first 20 rows)
+## Sample raw data (the first 20 rows)
 | Year  | Leading Cause | Sex  | Race Ethnicity | Deaths  | Death Rate | Age Adjusted Death Rate |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 2011  | Nephritis, Nephrotic Syndrome and Nephrisis (N00-N07, N17-N19, N25-N27)  | F  | Black Non-Hispanic  | 83  | 7.9  | 6.9  |
@@ -27,7 +27,7 @@ The data set, [New York City Leading Causes of Death](https://data.cityofnewyork
 | 2007  | Diseases of Heart (I00-I09, I11, I13, I20-I51)  | F  | Not Stated/Unknown  | 82  | -  | -  |
 | 2007  | Chronic Lower Respiratory Diseases (J40-J47)  | F  | Hispanic  | 116  | 9.9  | 12.8 |
 
-### Scrubbing task
+## Scrubbing task
 In the original data, there exist two main issues, while lacking one piece of information we believe is critical to the analysis. Regarding the issues, the first one relates to the disorder of raw data, in which the entire dataset is not ordered based on any pattern, and the second one relates to the commas existing in the leading cause categories. Spreadsheets might mistake them for a delimiter, thus resulting in autofilling parts of the text, despite it should be regarded as a whole, into different columns.  
 To address the first issue, we use the **sort_values** function in pandas:
 ```python
@@ -46,7 +46,7 @@ To calculate population numbers using data on deaths and death rate, we have cod
 sorted_df['Population Number'] = sorted_df['Deaths'] / sorted_df['Death Rate']*1000
 ```
 
-### Links to data files:
+## Links to data files:
 - [New York City Leading Causes of Death](https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam/data_preview)
 - [Munged Data: New York City Leading Causes of Death](https://github.com/dbdesign-students-spring2024/3-spreadsheet-analysis-shaw2065/blob/main/data/clean_data.csv)
 - [Spreadsheet: New York City Leading Causes of Death](https://github.com/dbdesign-students-spring2024/3-spreadsheet-analysis-shaw2065/blob/main/data/clean_data.xlsx)
