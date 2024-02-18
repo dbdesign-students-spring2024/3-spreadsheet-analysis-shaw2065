@@ -29,7 +29,6 @@ for i in data:
             starting = False
         else:
             if "," in x:
-                v = ""
                 v = '"' + x + '"'
                 x = v
             w.write(","+x)

@@ -33,10 +33,9 @@ To address the first issue, we use the **sort_values** function in pandas:
 ```python
 sorted_df = df.sort_values(by=['Race Ethnicity', 'Year'], ascending=[True, True])
 ```
-As for the second issue, we put double quotes surrounding data with said problem.:
+As for the second issue, we put double quotes surrounding data with said problem:
  ```python
 if "," in x:
-    v = ""
     v = '"' + x + '"'
     x = v
 ```
