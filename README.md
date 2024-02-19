@@ -103,7 +103,7 @@ We use pivot table and pivot chart to examine the average death rate of diabetes
 In the pivot table, the average death rate of diabetes mellitus is displayed. Each cell corresponds to a specific year and ethnic group, showcasing the average death rate across both sexes included in the dataset. For cells representing a year and total, the enclosed data represents the average death rate across all populations included for that particular year. The "Average" row displays the average death rate of each ethnic group, or all combined, across the years included in the dataset.
 
 ### Pivot Chart
-![Pivot Chart on Deaths and Death Rate of Diabetes Mellitus](https://github.com/dbdesign-students-spring2024/3-spreadsheet-analysis-shaw2065/blob/main/data/chart.png)
+![Pivot Chart on Deaths and Death Rate of Diabetes Mellitus](https://github.com/dbdesign-students-spring2024/3-spreadsheet-analysis-shaw2065/blob/main/data/diabetes.png)
 The pivot chart visualizes the changing average death rate of diabetes mellitus over time. The horizontal axis represents each year included in the dataset, while the vertical axis displays the average death rate. Each line on the chart represents the changing average death rate, inclusive of both sexes, for each ethnic group across the years.
 
 ## Analysis
