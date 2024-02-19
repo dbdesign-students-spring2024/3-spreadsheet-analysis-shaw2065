@@ -54,16 +54,13 @@ sorted_df['Population Number'] = sorted_df['Deaths'] / sorted_df['Death Rate']*1
 # Spreadsheet Analysis
 ## 1. Maximum & Minimum Deaths/ Death Rate/ Age Adjusted Death Rate 
 We use the MIN() and MAX() function to find the minimum and maximum value of these three data: deaths, death rate, and age adjusted rate. In order to further examine the data, we use the INDEX() and MATCH() function to return other relevant data in the records of the maximum and minimum values.
-| Maximum Deaths  | 7050 | Leading Cause  | Diseases of Heart (I00-I09, I11, I13, I20-I51) | Sex  | F | Race Ethnicity  | White Non-Hispanic | Death Rate  | 491.4 |
-| Maximum Death Rate  | 491.4  | Leading Cause | Diseases of Heart (I00-I09, I11, I13, I20-I51)  | Sex  | F Cell  | Race Ethnicity  | White Non-Hispanic  | Deaths  | 7050  |
-| Maximum Age Adjusted Death Rate  | 350.7  | Leading Cause  | Diseases of Heart (I00-I09, I11, I13, I20-I51)  | Sex  | M  | Race Ethnicity  | White Non-Hispanic  | Deaths  | 5632 |
-| Minimum Deaths  | 5  | Leading Cause  | Accidents Except Drug Posioning (V01-X39, X43, X45-X59, Y85-Y86)  | Sex  | M  | Race Ethnicity  | Other Race/ Ethnicity  | Death Rate   |   |
-| Minimum Death Rate  | 2.4  | Leading Cause  | Nephritis, Nephrotic Syndrome and Nephrisis (N00-N07, N17-N19, N25-N27)  | Sex  | F  | Race Ethnicity  | Asian & Pacific Islander  | Deaths  | 13  |
-| Minimum Age Adjusted Death Rate  | 2.5  | Leading Cause | Viral Hepatitis (B15-B19)  | Sex  | F  | Race Ethnicity  | Asian & Pacific Islander  | Deaths  | 15  |
 
 ## 2. Mean Death Rate of Each Unique Leading Cause of Death for Each Race Ethnicity 
 
 If using a pivot table for analysis, include a Markdown table showing a sample of the results of the pivot table (no more than 20 rows, please), along with a short description of what the results show and any insights they offer.
+
+## 3. Diabetes
+![Pivot Chart on Deaths and Death Rate of Diabetes Mellitus](https://github.com/dbdesign-students-spring2024/3-spreadsheet-analysis-shaw2065/blob/main/data/chart.png)
 
 If using a chart for visualization, include the chart image in the report, with a short description of what the image shows and any insights it offers. See the Markdown guide linked above for details of showing an image.
 
